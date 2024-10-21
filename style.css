@@ -4,7 +4,6 @@ body {
 }
 
 /* header styles */
-
 header {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100px;
@@ -13,12 +12,16 @@ header {
     text-align: center;
     margin: 50px auto;
     width: 100%;
-    background-image: url(./pattern.jpeg);
-
+    height: 200px;
+    background-image: url('./pattern.jpeg');
+    /* Ensure the path is correct */
+    background-size: cover;
+    /* Ensure the image covers the header */
+    background-position: center;
+    /* Center the image */
 }
 
 /* h2 styles */
-
 h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 32px;
@@ -41,10 +44,8 @@ h2 {
 }
 
 /* span styles */
-
 span {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: blue;
-
 }
