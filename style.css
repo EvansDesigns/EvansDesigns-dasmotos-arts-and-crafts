@@ -9,6 +9,10 @@ header {
     font-weight: bold;
     color: khaki;
     text-align: center;
+    background-image: url(/pattern.jpeg);
+    margin: 50px auto;
+    width: 100%;
+
 
 }
 
